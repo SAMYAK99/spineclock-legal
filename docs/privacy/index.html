@@ -107,11 +107,21 @@
         <li>Purchase records are kept by Google Play (and RevenueCat as needed) for as long as billing and tax rules require.</li>
       </ul>
 
-      <h2>7. How to delete your account and data</h2>
-      <p>In the app, open Settings and use the delete-account option. That deletes your Firestore document, deletes the Firebase Authentication user, and clears local app data on that device.</p>
-      <p>You can also email <a href="mailto:streamerx047@gmail.com">streamerx047@gmail.com</a> with the subject “Delete my SpineClock account” and the email address on the account. We will delete the cloud account and associated Firestore document. Google Play purchases are managed by Google; deleting the SpineClock account does not automatically refund a subscription. Cancel in Google Play → Payments &amp; subscriptions if you want billing to stop.</p>
-      <p>Uninstalling the app removes local data on that phone. It does not by itself delete a cloud account. Use in-app delete or email us.</p>
+       <h2 id="delete-account">7. How to delete your account and data</h2>
+      <p><strong>App:</strong> SpineClock | <strong>Developer:</strong> Samyak Singh</p>
+      
+      <h3>How to request deletion</h3>
+      <ul>
+        <li><strong>In-app deletion (instant):</strong> Open SpineClock &rarr; Go to <strong>Settings / Profile</strong> &rarr; Tap <strong>Delete Account</strong> and confirm. This permanently deletes your Firebase Authentication record, clears your cloud Firestore document, and removes local data on that device.</li>
+        <li><strong>Web / email request (if uninstalled):</strong> If you cannot access the app or have uninstalled it, email <a href="mailto:streamerx047@gmail.com">streamerx047@gmail.com</a> with the subject line <code>Delete my SpineClock account</code> using your registered email address. We will permanently wipe your account and associated database records within 30 days.</li>
+      </ul>
 
+      <h3>Data handled upon deletion</h3>
+      <ul>
+        <li><strong>Data permanently deleted:</strong> Authentication credentials (email, Firebase UID), step history, streaks, XP, unlocked badges, and saved preferences.</li>
+        <li><strong>Data retained:</strong> Anonymized Google Play purchase tokens and billing records are retained only as required by Google Play and statutory tax/accounting regulations. (Deleting your SpineClock account does not cancel recurring subscriptions; please manage or cancel active plans directly in <em>Google Play &rarr; Payments & subscriptions</em>).</li>
+      </ul>
+      
       <h2>8. Your choices</h2>
       <ul>
         <li>Use the app without signing in</li>
@@ -137,21 +147,6 @@
       <h2>13. Contact</h2>
       <p>Privacy and deletion requests: <a href="mailto:streamerx047@gmail.com">streamerx047@gmail.com</a></p>
       <p>These pages: <a href="../privacy/">Privacy Policy</a> · <a href="../terms/">Terms of Service</a></p>
-
-      <h2 id="delete-account">7. How to delete your account and data</h2>
-      <p><strong>App:</strong> SpineClock | <strong>Developer:</strong> Samyak Singh</p>
-      
-      <h3>How to request deletion</h3>
-      <ul>
-        <li><strong>In-app deletion (instant):</strong> Open SpineClock &rarr; Go to <strong>Settings / Profile</strong> &rarr; Tap <strong>Delete Account</strong> and confirm. This permanently deletes your Firebase Authentication record, clears your cloud Firestore document, and removes local data on that device.</li>
-        <li><strong>Web / email request (if uninstalled):</strong> If you cannot access the app or have uninstalled it, email <a href="mailto:streamerx047@gmail.com">streamerx047@gmail.com</a> with the subject line <code>Delete my SpineClock account</code> using your registered email address. We will permanently wipe your account and associated database records within 30 days.</li>
-      </ul>
-
-      <h3>Data handled upon deletion</h3>
-      <ul>
-        <li><strong>Data permanently deleted:</strong> Authentication credentials (email, Firebase UID), step history, streaks, XP, unlocked badges, and saved preferences.</li>
-        <li><strong>Data retained:</strong> Anonymized Google Play purchase tokens and billing records are retained only as required by Google Play and statutory tax/accounting regulations. (Deleting your SpineClock account does not cancel recurring subscriptions; please manage or cancel active plans directly in <em>Google Play &rarr; Payments & subscriptions</em>).</li>
-      </ul>
     </div>
   </div>
 </body>
